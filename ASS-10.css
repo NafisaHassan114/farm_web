@@ -1,0 +1,526 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.header{
+    display: flex;
+    justify-content: space-around;
+}
+.header ul{
+    display: flex;
+    list-style: none;
+
+}
+.header ul li{
+    padding: 24px 22px;
+    font-size: 22px;
+
+    
+}
+.header h1{
+    padding: 20px 40px;
+}
+.log{
+    background-color: #204e51;
+    color: white;
+    font-size: 22px;
+    border: none;
+    border-radius: 12px;
+    width: 175px;
+    height: 50px;
+    margin-top  : 18px;
+    margin-right: 11px;
+}
+.sig{
+    font-size:22px ;
+    color:  #204e51;
+    width: 175px;
+    height: 50px;
+    border: solid 2px  #204e51;
+    border-radius:12px   ;
+    background-color: white;
+    margin-top:18px ;
+    margin-right: 11px;
+}
+.main{
+    background-image: url(img/pool.PNG);
+    background-repeat: no-repeat;
+    background-size: 100% 500px;
+    height: 500px;
+    text-align: center;
+    margin-top: 20px;
+}
+.main h1{
+    color: white;
+    font-size: 50px;
+    padding-top: 90px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.main p{
+    color: white;
+    padding-top: 20px;
+}
+.btn-left{
+    background-color: #204e51;
+    color: white;
+    font-size: 22px;
+    border: none;
+    width: 180px;
+    height: 50px;
+    margin-top: 20px;
+
+}
+.btn-right{
+    background-color: transparent;
+    border-radius: 9px;
+    border: solid 2px white;
+    color:white;
+    font-size: 22px;
+    width: 180px;
+    height: 50px;
+    margin-top: 20px;
+
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.footer{
+    background-color: #f0f0f0;
+    height: 510px;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 80px 20px;
+    position: relative;
+}
+.left-foter{
+    width: 450px;
+}
+.left-foter h1{
+    font-size: 55px;
+    color: #204e51;
+}
+.left-foter p{
+      padding-top: 18px;
+
+}
+.left-foter button{
+    background-color: #204e51;
+    color: white;
+    font-size: 22px;
+    border: none;
+    border-radius: 10px;
+    width: 160px;
+    height: 50px;
+    margin-top: 20px; 
+
+}
+.right-foter img{
+      width: 350px;
+      height: 360px;
+      border-radius: 40px;
+      
+
+}
+.right-foter h4{
+    position: absolute;
+    background-color:white;
+    font-size: 22px;
+    color: #1c4e51;
+    text-align: center;
+    padding: 16px 60px;
+    border-radius: 14px;
+    margin: 0px 70px;
+    margin-top: -30px;
+    
+
+}
+.our-service{
+    background-color:#f0f0f0 ;
+    /* height: 450px; */
+    text-align: center;
+}
+  
+
+
+.our-service h1{
+    color: #1c4e51 ;
+    font-size: 52px;
+
+}
+.our-service p{
+    font-size: 18px;
+    padding-top: 10px;
+}
+.box{
+    background-color: white;
+    border-radius: 18px;
+    height: 250px;
+    width: 260px;
+}
+.boxes{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 50px;
+}
+.box i{
+   font-size: 90px;
+   padding-top: 36px;
+}
+.box h4{
+    color: #1c4e51;
+    font-size: 19px;
+    padding-top: 22px;
+}
+.product{
+
+     background-color: #f0f0f0;
+    text-align: center;
+    padding-top: 90px;
+    padding-bottom: 50px;
+}
+
+.product h1{
+    color: #1c4e51 ;
+    font-size: 52px;
+}
+.product p{
+    padding-top: 10px;
+}
+.row{
+    background-color: white;
+    border-radius: 20px;
+    height: 360px;
+    width: 260px; 
+}
+.rows{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 50px;
+}
+.rows img{
+    width: 150px;
+    height: 140px;
+    border-radius: 18px;
+    margin-top: 30px;
+    
+}
+.row h3{
+    color: #1c4e51;
+    padding-top: 20px;
+} 
+.row p{
+    padding-top: 12px;
+    font-size: 12px;
+    line-height: 18px;
+    width: 200px;
+    margin-left: 30px;
+    
+}
+.product a{
+    
+    color: #1c4e51;
+}
+.product h4{
+    padding-top: 60px;
+}
+
+.dhex{
+    background-image: url(img/pool.PNG);
+    background-repeat: no-repeat;
+    background-size:100% 500px;
+    height: 470px;
+    padding-top: 30px;
+}
+.dhex h1{
+    color: white;
+    font-size: 52px;
+    padding-left: 60px;
+    padding-top: 90px;
+}
+.boton{
+    display: flex;
+    gap: 30px;
+    margin-left: 60px;
+    margin-top: 50px;
+}
+.bot1{
+    padding:8px 20px;
+    border-radius: 8px;
+    background-color: #1c4e51;
+    color: white;
+}
+.bot2{
+    padding:8px 20px;
+    border-radius: 8px;
+    border: solid 1px white;
+    background-color:transparent;
+    color: white;
+}
+.benefit-left, .benefit-right{
+    width: 430px;
+
+}
+.benefit-right{
+    background-color: #1c4e51;
+    height: 450px;
+    margin: 70px 20px;
+    border-radius: 18px;
+    padding-left: 90px;
+    padding-top: 60px;
+    
+    
+}
+.benefit-parent{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.benefit-left{
+    margin: 110px 20px;
+}
+.benefit-left h1{
+    font-size: 60px;
+    color: #1c4e51;
+    margin-top: 50px;
+}
+.benefit-left p{
+    margin-top: 15px;
+}
+.benefit-left button{
+    margin-top: 36px;
+    padding:8px 20px;
+    border-radius: 8px;
+    background-color: #1c4e51;
+    color: white;
+}
+.icon-parent{
+    display: flex;
+    color: white;
+    gap: 36px;
+    margin: 20px 16px;
+    
+}
+.icon i{
+    font-size: 28px;
+    margin-top: 16px;
+
+
+}
+.gudaha h5{
+    margin-top: 8px;
+}
+.test-parent{
+    background-color: #f0f0f0;
+    height: 500px;
+    text-align: center;
+}
+.test-parent h1{
+      color: #1c4e51;
+      font-size: 60px;
+      padding-top: 30px;
+}
+.test-parent P{
+
+    padding-top: 18px;
+    
+}
+.test1{
+    background-color: #1c4e51;
+    width: 700px;
+    height: 280px;
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+
+}
+.test-main{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    margin-top: 40px;
+}
+.test2 i{
+    color: #1c4e51;
+    background-color: white;
+    font-size: 30px;
+    margin-top: 100px;
+}
+.test1-left img{
+     width: 200px;
+     height: 180px;
+     border-radius: 12px;
+     margin-top: 44px;
+}
+.test1-right{
+    width: 270px;
+    color: white;
+    margin-top: 54px ;
+
+}
+.test1-right i{
+    color: orange;
+    margin-top: 6px;
+    padding-left: 6px;
+    
+    
+    
+    
+}
+.test1-right h2{
+    
+}
+.blog{
+    text-align: center;
+    padding-top: 20px;
+}
+.blog h1{
+    color: #1c4e51;
+    font-size: 60px;
+}
+.blog p{
+    padding-top: 16px;
+}
+.blog1 img{
+    width: 210px;
+    height: 240px;
+    border-radius: 12px;
+    margin-top: 14px;
+}
+.blog1{
+    width: 220px;
+    height: 500px;
+    margin-top: 20px;
+}
+.blog1 h2{
+    color: #1c4e51;
+    margin-top: 14px;
+}
+.blog1 p{
+    padding-top: 10px;
+}
+.blog1 a{
+    padding-top: 12px;
+}
+.blog-parent{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.footer-parent{
+    background-color: #1c4e51;
+    height: 200px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 40px;
+}
+.footer-left, .footer-right{
+    width: 400px;
+}
+.footer-right{
+    display: flex;
+    justify-content: space-around;
+    margin: 40px 14px;
+}
+.page{
+    padding-top: 10px;
+}
+#menu{
+    font-size: 30px;
+    margin-top: 20px;
+    position: absolute;
+    right: 0px;
+    display: none;
+}
+
+@media screen and (max-width:600px){
+    #menu{
+        display: block;
+        margin-right: 10px;
+    }
+    .log-sign{
+        display: none;
+    }
+    .header ul{
+        display: none;
+    }
+    .header h1{
+        font-size: 22px;
+        margin-right: 120px;
+    }
+    .main h1{
+        font-size: 44px;
+        
+    }
+    .main p{
+        margin: 12px;
+    }
+    .btn{
+        padding: 20px;
+        margin-top: -20px;
+    }
+    .footer{
+        flex-direction: column;
+    }
+    .left-foter{
+        width: 340px;
+        margin: 20px;
+        margin-bottom: -20px;
+    }
+    .left-foter h1{
+        font-size: 30px;
+    }
+    .right-foter{
+        width: 100%;
+        margin-top: 40px;
+    }
+    .our-service{
+        padding: 60px;
+    
+    }
+    .boxes{
+        flex-direction: column;
+        gap: 20px;
+        
+        
+    
+    }
+    .rows{
+        flex-direction: column;
+        gap: 20px;
+        padding: 60px;
+    }
+    .product h1{
+        font-size: 30px;
+
+        
+    }
+    .dhex h1{
+        font-size: 35px;
+    }
+    .benefit-parent{
+        flex-direction: column;
+    
+    }
+    .benefit-left{
+        width: 300px;
+        margin-top: -20px;
+        
+    }
+    .benefit-left h1{
+        font-size: 52px;
+    }
+    .benefit-right{
+        width: 260px;
+        margin-top: -30px;
+    }
+    .test1{
+       width: 300px; 
+    }
+    
+
+}
